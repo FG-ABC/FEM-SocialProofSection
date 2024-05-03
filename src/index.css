@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+  text-shadow: 0.75px 0 hsl(300, 43%, 22%);
+  color: hsl(300, 43%, 22%);
+}
+
+h2 {
+  font-weight: 600;
+  text-shadow: 0.5px 0 hsl(300, 43%, 22%);
+  color: hsl(300, 43%, 22%);
+}
+
+p {
+  font-weight: 500;
+  color: hsl(303, 10%, 53%);
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  max-width: 412px;
+}
+
+.Card {
+  max-width: 450px;
+}
+
+/* 
+@media screen and (min-width: 640px) {
+    .faqHolder {
+      width: 650px;
+    }
+
+    body{
+        background-image: url('./assets/images/background-pattern-desktop.svg');
+    }
+  } */
